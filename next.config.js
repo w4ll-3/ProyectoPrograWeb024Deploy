@@ -1,8 +1,6 @@
-/** @type {import('next').NextConfig} */
+const path = require("path");
 
-const path = require('path')
-
-const nextConfig = {
+module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
@@ -10,5 +8,3 @@ const nextConfig = {
     domains: ["res.cloudinary.com", "media.dev.to"],
   },
 };
-
-export default nextConfig;
