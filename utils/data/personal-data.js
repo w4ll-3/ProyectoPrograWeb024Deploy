@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/profile.png",
   designation: " Desarrollador Web",
   description:
-    "Mi nombre es Wellington Cua. Soy un desarrollador web y entusiasta en mi vida diaria. Aprendo rápido con una actitud de autoaprendizaje. Me encanta aprender y explorar nuevas tecnologías, me apasiona la resolución de problemas. Me encantan casi todos los aspectos del desarrollo de aplicaciones web y me encanta hacer que la web esté más abierta al mundo. Mi habilidad principal se basa en JavaScript y me encanta hacer la mayoría de las cosas usando JavaScript. Estoy disponible para cualquier tipo de oportunidad laboral que se adapte a mis habilidades e intereses.",
+    "Soy Wellington, un apasionado desarrollador web con un intenso deseo de aprendizaje y exploración de nuevas tecnologías. Mi experiencia en JavaScript me permite abordar una amplia gama de desafíos en el desarrollo de aplicaciones web con ingenio y eficacia. Poseo conocimientos en la creación de productos digitales utilizando un conjunto diverso de herramientas, que incluyen React, Angular, AWS, GIT y Odoo. A lo largo de mi trayectoria, he colaborado con equipos multidisciplinarios para entregar soluciones de alta calidad. Mi objetivo es contribuir a proyectos innovadores que tengan un impacto positivo en la vida de las personas. Estoy comprometido a encontrar oportunidades que me permitan crecer profesionalmente y desarrollarme en el ámbito digital, contribuyendo así a proyectos significativos y desafiantes.",
   email: "wjcua528@gmail.com",
   phone: "+502 1234 1234",
   address: "Quetzaltenango, Guatemala, C.A. ",
