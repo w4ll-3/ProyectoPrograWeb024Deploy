@@ -17,7 +17,7 @@ function AboutSection() {
         alt="Hero"
         width={1572}
         height={795}
-        className="absolute top-0 -z-0 w-full h-full filter drop-shadow-lg opacity-80 "
+        className="absolute top-0 -z-0 w-full h-full filter drop-shadow-lg opacity-80"
       />
 
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
