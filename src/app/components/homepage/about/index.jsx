@@ -2,10 +2,6 @@
 
 import { personalData } from "../../../../../utils/data/personal-data";
 import Image from "next/image";
-import card from '../../../../../public/card.png';
-import topbg from '../../../../../public/top-bg.svg';
-
-
 
 function AboutSection() {
   return (
@@ -13,7 +9,7 @@ function AboutSection() {
     <div id="about" className="my-12 lg:my-16 relative">
 
       <Image
-        src={topbg}
+        src="/top-bg.svg"
         alt="Hero"
         width={1572}
         height={795}
