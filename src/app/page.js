@@ -12,7 +12,7 @@ async function getData() {
   );
 
   if (!res.ok) {
-    throw new Error("Failed to fetch data");
+    throw new Error("Fallo al cargar los datos");
   }
 
   const data = await res.json();
@@ -26,7 +26,7 @@ async function getData() {
 
 export default async function Home() {
   const blogs = await getData();
-  console.log(blogs)
+  console.log(blogs);
 
   return (
     <>

@@ -8,31 +8,25 @@ function AboutSection() {
     
     <div id="about" className="my-12 lg:my-16 relative">
 
-      <Image
-        src="/top-bg.svg"
-        alt="Hero"
-        width={1572}
-        height={795}
-        className="absolute top-0 -z-0 w-full h-full filter drop-shadow-lg opacity-80"
-        priority={true}
-      />
-
-      <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
-          SOBRE MI
-        </span>
-        <span className="h-36 w-[2px] bg-[#1a1443]"></span>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-        <div className="order-2 lg:order-1">
-          <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
+      <div className="flex justify-center my-5 lg:py-4">
+        <div className="flex  items-center">
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
             Sobre Mi
-          </p>
+          </span>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+        
+        <div className="order-2 lg:order-1">
           <p className="text-gray-200 text-base lg:text-lg">
             {personalData.description}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
+        
+        <div className="flex justify-center items-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
             width={400}
@@ -41,6 +35,7 @@ function AboutSection() {
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
         </div>
+
       </div>
     </div>
   );

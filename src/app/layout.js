@@ -7,7 +7,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portafolio de Wellington Cua",
+  title: "Portafolio Wellington Cua",
   description:
     "Este es el portafolio de Wellington Cua. Soy un desarrollador frontend autodidacta. Me encanta aprender cosas nuevas y siempre estoy abierto a colaborar con otros. Aprendo rápido y siempre estoy buscando nuevos desafíos",
 };
