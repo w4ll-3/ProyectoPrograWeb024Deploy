@@ -1,6 +1,7 @@
 // @flow strict
 import Link from "next/link";
 
+
 function Navbar() {
   return (
     <nav className="bg-transparent">
@@ -33,9 +34,6 @@ function Navbar() {
           </li>
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600"><span className="font-bold">BLOGS</span></div></a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#contact"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600"><span className="font-bold">CONTACTO</span></div></a>
           </li>
         </ul>
       </div>
