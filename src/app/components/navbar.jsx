@@ -27,13 +27,16 @@ function Navbar() {
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#skills"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div></a>
           </li>
           <li>
+            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROYECTOS</div></a>
+          </li>
+          <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#education"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCACIÓN</div></a>
           </li>
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">BLOGS</div></a>
           </li>
           <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROYECTOS</div></a>
+            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#contact"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">CONTACTO</div></a>
           </li>
         </ul>
       </div>

@@ -5,6 +5,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Skills from "./components/homepage/skills";
 import Projects from "./components/homepage/projects";
 import Education from "./components/homepage/education";
+import Blog from "./components/homepage/blog";
 
 async function getData() {
   const res = await fetch(
@@ -27,7 +28,6 @@ async function getData() {
 export default async function Home() {
   const blogs = await getData();
   console.log(blogs);
-
   return (
     <>
       <HeroSection />
@@ -36,6 +36,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Blog blogs={blogs} />
     </>
   );
 }
