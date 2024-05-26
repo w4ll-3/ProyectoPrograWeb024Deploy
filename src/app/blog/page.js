@@ -4,18 +4,17 @@ import { personalData } from "../../../utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
 import { FaArrowLeft } from "react-icons/fa";
 import Link from "next/link";
+import axios from "axios";
 
 async function getBlogs() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
-  );
-
-  if (!res.ok) {
+  try {
+    const response = await axios.get(
+      `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
+    );
+    return response.data;
+  } catch (error) {
     throw new Error("Failed to fetch data");
   }
-
-  const data = await res.json();
-  return data;
 }
 
 async function page() {

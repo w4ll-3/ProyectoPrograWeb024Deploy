@@ -7,23 +7,24 @@ import Projects from "./components/homepage/projects";
 import Education from "./components/homepage/education";
 import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
+import axios from "axios";
 
 async function getData() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
-  );
+  try {
+    const response = await axios.get(
+      `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
+    );
 
-  if (!res.ok) {
+    const data = response.data;
+
+    const filtered = data
+      .filter((item) => item?.cover_image)
+      .sort(() => Math.random() - 0.5);
+
+    return filtered;
+  } catch (error) {
     throw new Error("Failed to fetch data");
   }
-
-  const data = await res.json();
-
-  const filtered = data
-    .filter((item) => item?.cover_image)
-    .sort(() => Math.random() - 0.5);
-
-  return filtered;
 }
 
 export default async function Home() {
