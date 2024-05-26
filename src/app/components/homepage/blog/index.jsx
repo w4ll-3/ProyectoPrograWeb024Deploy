@@ -4,6 +4,8 @@ import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
 
 function Blog({ blogs }) {
+  // Ordena los blogs por fecha de publicación (propiedad `published_at`)
+  const sortedBlogs = blogs.slice().sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
   return (
     <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
@@ -27,7 +29,7 @@ function Blog({ blogs }) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
         {
-          blogs.slice(0, 6).map((blog, i) => (
+          sortedBlogs.slice(0, 6).map((blog, i) => (
             blog?.cover_image &&
             <BlogCard blog={blog} key={i} />
           ))
