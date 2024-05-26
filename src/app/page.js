@@ -6,14 +6,15 @@ import Skills from "./components/homepage/skills";
 import Projects from "./components/homepage/projects";
 import Education from "./components/homepage/education";
 import Blog from "./components/homepage/blog";
+import ContactSection from "./components/homepage/contact";
 
 async function getData() {
   const res = await fetch(
-    `https://dev.to/api/articles?username=${personalData.devUsername}`
+    `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
   );
 
   if (!res.ok) {
-    throw new Error("Fallo al cargar los datos");
+    throw new Error("Failed to fetch data");
   }
 
   const data = await res.json();
@@ -37,6 +38,7 @@ export default async function Home() {
       <Projects />
       <Education />
       <Blog blogs={blogs} />
+      <ContactSection />
     </>
   );
 }

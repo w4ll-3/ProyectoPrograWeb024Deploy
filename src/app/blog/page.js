@@ -7,7 +7,7 @@ import Link from "next/link";
 
 async function getBlogs() {
   const res = await fetch(
-    `https://dev.to/api/articles?username=${personalData.devUsername}`
+    `${process.env.NEXT_PUBLIC_BLOGS_API}?username=${personalData.devUsername}`
   );
 
   if (!res.ok) {
