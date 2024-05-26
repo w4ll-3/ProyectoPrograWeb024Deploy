@@ -121,7 +121,7 @@ function ContactForm() {
               onClick={handleSendMail}
             >
               <span>Enviar Mensaje</span>
-              <TbMailForward className="mt-1" size={18} />
+              <TbMailForward className="ml-1" size={18} />
             </button>
           </div>
         </div>
