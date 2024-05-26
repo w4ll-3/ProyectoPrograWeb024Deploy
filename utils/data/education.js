@@ -16,5 +16,5 @@ export const educations = [
     title: "AWS Certified Cloud Practitioner Foundational",
     conclusion: "Junio 2023",
     institution: "Amazon Web Services (AWS).",
-  }
-]
+  },
+];
