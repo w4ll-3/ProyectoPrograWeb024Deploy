@@ -42,7 +42,7 @@ function ContactForm() {
       const res = await emailjs.send(serviceID, templateID, input, options);
 
       if (res.status === 200) {
-        toast.success('Message sent successfully!');
+        toast.success('Mensaje Enviado Correctamente!');
         setInput({
           name: '',
           email: '',
