@@ -1,8 +1,7 @@
-// @flow strict
+import { BsHeartFill } from 'react-icons/bs';
 import { timeConverter } from '../../../../../utils/time-converter';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsHeartFill } from 'react-icons/bs';
 import { FaCommentAlt, FaRegEye } from 'react-icons/fa';
 
 function BlogCard({ blog }) {
@@ -48,13 +47,6 @@ function BlogCard({ blog }) {
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 pt-2 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>
-        {/* <div className="">
-          <Link target='_blank' href={blog.url}>
-            <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
-              Read More
-            </button>
-          </Link>
-        </div> */}
       </div>
     </div>
   );

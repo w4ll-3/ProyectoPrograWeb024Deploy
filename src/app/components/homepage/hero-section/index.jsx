@@ -1,13 +1,11 @@
-// @flow strict
-
-import { personalData } from "../../../../../utils/data/personal-data";
-import Image from "next/image";
-import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
+import { personalData } from "../../../../../utils/data/personal-data";
 import { RiContactsFill } from "react-icons/ri";
 import { SiStackoverflow } from "react-icons/si";
+import Image from "next/image";
+import Link from "next/link";
 
 function HeroSection() {
   return (

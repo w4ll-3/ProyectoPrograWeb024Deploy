@@ -1,7 +1,6 @@
-// @flow strict
-import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
+import Link from 'next/link';
 
 function Blog({ blogs }) {
   // Ordena los blogs por fecha de publicación (propiedad `published_at`)

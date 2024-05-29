@@ -1,9 +1,10 @@
+import "./css/card.scss";
+import "./css/globals.scss";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import "./css/card.scss";
-import "./css/globals.scss";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -23,7 +24,6 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      {/* <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} /> */}
     </html>
   );
 }
