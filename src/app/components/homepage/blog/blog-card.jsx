@@ -1,8 +1,9 @@
+// @flow strict
 import { BsHeartFill } from 'react-icons/bs';
+import { FaCommentAlt, FaRegEye } from 'react-icons/fa';
 import { timeConverter } from '../../../../../utils/time-converter';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaCommentAlt, FaRegEye } from 'react-icons/fa';
 
 function BlogCard({ blog }) {
 

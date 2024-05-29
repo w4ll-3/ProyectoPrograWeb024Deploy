@@ -1,3 +1,4 @@
+// @flow strict
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";

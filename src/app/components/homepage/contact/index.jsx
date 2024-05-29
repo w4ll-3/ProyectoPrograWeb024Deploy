@@ -1,3 +1,4 @@
+// @flow strict
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaStackOverflow } from 'react-icons/fa';

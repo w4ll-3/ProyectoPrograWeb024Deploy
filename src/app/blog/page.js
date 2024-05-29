@@ -1,10 +1,10 @@
 // @flow strict
 
-import { personalData } from "../../../utils/data/personal-data";
-import BlogCard from "../components/homepage/blog/blog-card";
 import { FaArrowLeft } from "react-icons/fa";
-import Link from "next/link";
+import { personalData } from "../../../utils/data/personal-data";
 import axios from "axios";
+import BlogCard from "../components/homepage/blog/blog-card";
+import Link from "next/link";
 
 async function getBlogs() {
   try {
