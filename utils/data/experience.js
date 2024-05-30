@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "Project Management Assistant",
     company: "Oowlish Technologies",
-    duration: "(Ene 2024 - Present)",
+    duration: "(Ene 2024 - Presente)",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const experiences = [
     id: 4,
     title: "Frontend Developer",
     company: "Prometeo TI",
-    duration: "(Abr 2021 - Dec 2021)",
+    duration: "(Abr 2021 - Dic 2021)",
   },
   {
     id: 5,
