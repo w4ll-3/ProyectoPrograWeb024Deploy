@@ -9,7 +9,7 @@
 
 ![](./public/image/screen.png)
 
-## Visite mi página [here](https://wjcua.vercel.app/).
+## Visite mi página [AQUI](https://wjcua.vercel.app/).
 
 ---
 
@@ -102,7 +102,7 @@ NEXT_PUBLIC_BLOGS_API = https://dev.to/api/articles
 # y traer los datos de estas, para presentarlos en las sección de blogs.
 ```
 
-### Luego, perzonalice los datos en la carpeta `utils/data` [folder](https://github.com/url-classes/proyecto-w4ll-3/tree/main/utils/data).
+### Luego, personalice los datos en la carpeta `utils/data` [folder](https://github.com/url-classes/proyecto-w4ll-3/tree/main/utils/data).
 
 Ej:
 
