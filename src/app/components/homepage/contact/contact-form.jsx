@@ -1,5 +1,7 @@
 // @flow strict
+
 "use client";
+
 import { isValidEmail } from '../../../../../utils/check-email';
 import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';

@@ -1,4 +1,5 @@
 // @flow strict
+
 import { BsPersonWorkspace } from "react-icons/bs";
 import { experiences } from "../../../../../utils/data/experience";
 import AnimationLottie from "../../helper/animation-lottie";
