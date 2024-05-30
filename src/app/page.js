@@ -23,7 +23,7 @@ async function getData() {
 
     return filtered;
   } catch (error) {
-    throw new Error("Failed to fetch data");
+    throw new Error("Fallo al cargar los blogs");
   }
 }
 
